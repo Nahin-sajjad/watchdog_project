@@ -1,0 +1,15 @@
+{
+    "processes": [
+      {
+        "name": "ProcessA",
+        "command": "/usr/bin/python3",
+        "args": ["-m", "http.server", "8000"]
+      },
+      {
+        "name": "ProcessB",
+        "command": "/usr/bin/top",
+        "args": []
+      }
+    ]
+  }
+  
