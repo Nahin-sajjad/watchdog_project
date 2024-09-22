@@ -1,15 +1,19 @@
 {
-    "processes": [
-      {
-        "name": "ProcessA",
-        "command": "/usr/bin/python3",
-        "args": ["-m", "http.server", "8000"]
-      },
-      {
-        "name": "ProcessB",
-        "command": "/usr/bin/top",
-        "args": []
-      }
-    ]
-  }
-  
+  "foreground_process": {
+    "name": "ProcessA",
+    "command": "/usr/bin/python3",
+    "args": ["-m", "http.server", "8000"]
+  },
+  "processes": [
+    {
+      "name": "ProcessA",
+      "command": "/usr/bin/python3",
+      "args": ["-m", "http.server", "8000"]
+    },
+    {
+      "name": "ProcessB",
+      "command": "/usr/bin/top",
+      "args": []
+    }
+  ]
+}
